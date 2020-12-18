@@ -7,7 +7,7 @@ export default class Cart extends Component {
         return (
             <div>
                 {cartItems.length===0?
-                (<div className='cart cart-header'>Your cart is empty</div>)
+                (<div className='cart cart-header'>Your cart is empty sad :(</div>)
                 :(<div className='cart cart-header'>you have {cartItems.length} Items in cart{" "}</div>)}
            <div>
                <div className='cart'>
