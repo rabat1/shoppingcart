@@ -33,7 +33,6 @@ alreadyInCart=true;
       cartItems,
     })
   }
-  
   removeItem=(product)=>{
     const cartItems=this.state.cartItems.slice();
     this.setState({
