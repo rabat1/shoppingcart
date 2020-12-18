@@ -43,9 +43,7 @@ sort==="lowest"?a.price>b.price?1:-1:sort==="highest"
     )
   }
   render(){
-
-  
-  return (
+return (
     <div className="grid-container">
 
         <header >
